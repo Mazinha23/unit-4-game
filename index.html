@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+</head>
+<body>
+    <h1>Crystal Collector</h1>
+    <p>You will be given a random number at the start of the game. <br>There are four crystals below. By clicking on a crystal you you will add a specific amount of points to your total score. <br>You win the game my matching your total score to a random number, you lose the game if your total score goes above a random number. <br>The value of each crystal is hidden from you until you click on it. <br> Each time when the game starts, the game will change the values of each crystal.</p>
+
+    <div id="numToGuess">0</div>
+    <div class="stats">
+        <p> Wins:<p id="wins"></p></p>
+    </div>
+    <div id="crystals"></div>
+    <div class="scoreBox">Your total score is:</div>
+    <div class="scoreBox" id="points"></div>
+
+    <div>
+        <img src="https://cdn.shopify.com/s/files/1/1547/3947/files/amethyst-stone-meanings_small.jpeg?v=1560879522" alt="Dark Crystal" id="crystal-1">
+        <img src="https://d13x80k168af0t.cloudfront.net/content/product/small/4320_001_L129D_CrystalLightGreyDeLite_FV_PL_CMYK.jpg" alt="Clear Crystal" id= "crystal-2">
+        <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBcppChLJcgmKUWeML66LHZt-Mgr69ZUs2PEieOg3Xn53XAkTk" alt="Pink Crystal" id="crystal-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC26MKIggoUqQZR6Krr_q8xhVGANySNqjNVr_gJDB49ValOJ-LTA" alt= "Blue Crystal" id="crystal-4">
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
